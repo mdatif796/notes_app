@@ -1,5 +1,11 @@
+import Message from "./Message";
+
 function App() {
-  return <div className="App">running</div>;
+  return (
+    <div style={{ display: "flex" }}>
+      <Message />
+    </div>
+  );
 }
 
 export default App;
